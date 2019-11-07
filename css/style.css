@@ -48,8 +48,9 @@ body {
     border: none;
     border-radius: 5px;
     padding: 5px;
-    font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    
+    
 }
 @media (min-width: 768px) {
 
