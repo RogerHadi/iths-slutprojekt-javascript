@@ -24,28 +24,28 @@ function init(resultFromServer) {
     let body = document.querySelector("body");
     switch (resultFromServer.weather[0].main) {
         case 'Clear':
-            body.style.backgroundImage = "url('clearPicture.jpg')";
+            body.style.backgroundImage = "url('images/clearPicture.jpg')";
             break;
         
-        case 'overcast clouds':
-            body.style.backgroundImage ="../images/cloudyPicture.jpg";
+        case 'Clouds':
+            body.style.backgroundImage ="url('images/cloudyPicture.jpg')";
             break;
 
         case 'Rain':
         case 'Drizzle':
-            document.body.style.backgroundImage = "url('rainPicture.jpg')";
+            body.style.backgroundImage = "url('images/rainPicture.jpg')";
             break;
 
         case 'Mist':
-            document.body.style.backgroundImage = "url('mistPicture.jpg')";
+            body.style.backgroundImage = "url('images/mistPicture.jpg')";
             break;    
         
         case 'Thunderstorm':
-            document.body.style.backgroundImage = "url('stormPicture.jpg')";
+            body.style.backgroundImage = "url('images/stormPicture.jpg')";
             break;
         
         case 'Snow':
-            document.body.style.backgroundImage = "url('snowPicture.jpg')";
+            body.style.backgroundImage = "url('images/snowPicture.jpg')";
             break;
 
         default:
