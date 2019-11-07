@@ -28,7 +28,7 @@ function init(resultFromServer) {
             break;
         
         case 'Clouds':
-            body.style.backgroundImage ="url('images/cloudyPicture.jpg')";
+            body.style.backgroundImage ="url('images/cloudy.jpg')";
             break;
 
         case 'Rain':
@@ -47,6 +47,9 @@ function init(resultFromServer) {
         case 'Snow':
             body.style.backgroundImage = "url('images/snowPicture.jpg')";
             break;
+        case 'broken cloud':
+            body.style.backgroundImage = "url('images/broken cloud.jpg')";
+            break;    
 
         default:
             break;
