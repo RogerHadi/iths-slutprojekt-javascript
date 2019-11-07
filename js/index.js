@@ -31,6 +31,10 @@ function init(resultFromServer) {
             body.style.backgroundImage ="url('images/cloudy.jpg')";
             break;
 
+        case 'light rain':
+            body.style.backgroundImage = "url('images/lightrain.jpg')";
+            break;    
+
         case 'Rain':
         case 'Drizzle':
             body.style.backgroundImage = "url('images/rainPicture.jpg')";
@@ -49,7 +53,8 @@ function init(resultFromServer) {
             break;
         case 'broken cloud':
             body.style.backgroundImage = "url('images/broken cloud.jpg')";
-            break;    
+            break;  
+  
 
         default:
             break;
