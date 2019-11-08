@@ -1,12 +1,7 @@
-# Slutprojekt JavaScript
-
+# Final Project...(JavaScript).
 ## Description
-# Final Project
-Weather-App Search By City Name.
-
-
+#Welcome to my Weather App.
+#Weather-App Search By City Name.#
 ## Features
-
-
 ## Libraries
 https://openweathermap.org/api
