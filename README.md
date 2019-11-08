@@ -13,3 +13,5 @@ Javascript for the function of the menu button at smaller screens widths.
 
 ## Libraries
 https://openweathermap.org/api
+
+Done by Roger Hadi
