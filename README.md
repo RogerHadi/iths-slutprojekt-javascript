@@ -1,7 +1,7 @@
 # Final Project...(JavaScript).
 ## Description
 #Welcome to my Weather App.
-#Weather-App Search By City Name.#
 ## Features
+#Weather-App Search By City Name.#
 ## Libraries
 https://openweathermap.org/api
